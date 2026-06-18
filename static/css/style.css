@@ -1,0 +1,151 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f7fc;
+}
+
+/* HOME SECTION */
+
+.home{
+background:linear-gradient(135deg,#2563eb,#1e3a8a);
+min-height:100vh;
+text-align:center;
+color:white;
+padding-top:100px;
+}
+
+.home h1{
+font-size:80px;
+}
+
+.buttons{
+margin-top:100px;
+}
+
+.buttons button{
+width:250px;
+height:90px;
+margin:20px;
+border:none;
+border-radius:20px;
+font-size:30px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.buttons button:hover{
+transform:scale(1.05);
+}
+
+/* ALL SECTIONS */
+
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.section h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.section h3{
+font-size:30px;
+}
+
+.section p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+line-height:1.8;
+margin-bottom:20px;
+}
+
+/* ABOUT SECTION */
+
+#about{
+background:#e0f2fe;
+color:#0f172a;
+}
+
+/* SKILLS SECTION */
+
+#skills{
+background:#1e3a8a;
+color:white;
+}
+
+.skills-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+color:#1e3a8a;
+padding:20px;
+width:180px;
+border-radius:15px;
+font-size:22px;
+font-weight:bold;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* PROJECTS SECTION */
+
+#projects{
+background:#dbeafe;
+color:#0f172a;
+}
+
+.project-card{
+background:white;
+color:#0f172a;
+margin:20px auto;
+max-width:700px;
+padding:20px;
+border-radius:15px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* CONTACT SECTION */
+
+#contact{
+background:#0f172a;
+color:white;
+}
+
+#contact a{
+color:#60a5fa;
+text-decoration:none;
+}
+
+#contact a:hover{
+text-decoration:underline;
+}
+
+/* GENERAL BUTTONS */
+
+.section button{
+padding:12px 25px;
+border:none;
+border-radius:10px;
+background:#2563eb;
+color:white;
+cursor:pointer;
+font-size:16px;
+margin:10px;
+}
+
+.section button:hover
